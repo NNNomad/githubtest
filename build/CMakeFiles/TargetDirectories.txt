@@ -1,0 +1,3 @@
+/home/yauho/workspace/cmake_test/build/CMakeFiles/rebuild_cache.dir
+/home/yauho/workspace/cmake_test/build/CMakeFiles/my_cmake_exe.dir
+/home/yauho/workspace/cmake_test/build/CMakeFiles/edit_cache.dir

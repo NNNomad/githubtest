@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Gun.h
+string
+-
+
+../include/Solider.h
+string
+-
+Gun.h
+../include/Gun.h
+
+/home/yauho/workspace/cmake_test/main.cpp
+Gun.h
+/home/yauho/workspace/cmake_test/Gun.h
+Solider.h
+/home/yauho/workspace/cmake_test/Solider.h
+
+/home/yauho/workspace/cmake_test/src/Gun.cpp
+Gun.h
+/home/yauho/workspace/cmake_test/src/Gun.h
+iostream
+-
+
+/home/yauho/workspace/cmake_test/src/Solider.cpp
+Solider.h
+/home/yauho/workspace/cmake_test/src/Solider.h
+
